@@ -20,7 +20,7 @@ body{
     top: 20px;
     margin-left: -100px;
     animation-name: moving;
-    animation-duration: 6s;
+    animation-duration: 9s;
     animation-iteration-count: infinite;
     animation-direction:initial;
     transition-timing-function: linear;
