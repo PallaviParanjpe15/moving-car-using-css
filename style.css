@@ -1,0 +1,55 @@
+body{
+    background-color: rgb(102, 179, 230);
+}
+.road{
+    background-color: rgb(52, 52, 52);
+    height: 100px;
+    width: 100vw;
+    position: relative;
+    top: 40vh;
+    margin-left: -10px;
+    margin-right: -10px;
+
+}
+.body{
+    height: 60px;
+    width: 100px;
+    background-color: rgb(245, 99, 46);
+    border-radius: 10px;
+    position: relative;
+    top: 20px;
+    margin-left: -100px;
+    animation-name: moving;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-direction:initial;
+    transition-timing-function: linear;
+}
+.tire{
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background-color: black;
+    position: relative;
+    /* top: 65px; */
+}
+#t1{
+    position: relative;
+    left: 15px;
+    top: 45px;
+}
+#t2{
+    position: absolute;
+    left: 60px;
+    top: 45px;
+    /* bottom: 10px; */
+}
+@keyframes moving {
+    0%{
+        transform: translateX(-10vw);
+
+    }
+    100%{
+        transform: translateX(115vw);
+    }
+}
